@@ -4,17 +4,19 @@ A cross-platform open-source extendable chatGPT-like app with a GUI.
 
 It's using the Antropic's Claude API (but one can easily replace it with another LLM).
 
-# Advantages over proprietary apps by Claude, OpenAI, etc
+# Why?
+
+## Advantages over proprietary apps by Claude, OpenAI, etc
 - open-source. You can see exactly what it does and how it works
 - no telemetry
 - cross-platform. No need to wait for an app for your OS
 - modifiable. Add your plugins, change it to your specific use case, replace the AI provider etc.
 - you can specify a large custom context that will be applied to all sessions (e.g. the documentation of your project)
 
-# Disadvantages
-- the user experience may be not as polished as proprietary apps
+## Disadvantages
+- the user experience may be not as polished as proprietary apps (we are not a big corp with infinite resources).
 
-## Features
+# Features
 
 - Functionality:
     - the basic functionality for chatting with AI
@@ -41,7 +43,7 @@ It's using the Antropic's Claude API (but one can easily replace it with another
   - the app can be extended with plugins
   - the whole thing is open-source, so modify it in any way you want.
 
-## Installation
+# Installation
 
 1. Clone this repository
 
@@ -60,7 +62,7 @@ It's using the Antropic's Claude API (but one can easily replace it with another
    pip install -r requirements.txt
    ```
 
-## Usage
+# Usage
 
 In the terminal, provide the Claude API key:
 
@@ -74,7 +76,7 @@ Run the main application script:
 python gui_chat.py
 ```
 
-## Hotkeys
+# Hotkeys
 
 - **New line**: `⌘ + Enter` (macOS)
 - **Send message**: `Enter`
