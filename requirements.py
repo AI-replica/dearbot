@@ -1,0 +1,7 @@
+anthropic
+Pillow
+dearpygui
+pygments
+mistletoe
+numpy
+tiktoken
